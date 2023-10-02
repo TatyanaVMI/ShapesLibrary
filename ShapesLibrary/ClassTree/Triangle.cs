@@ -10,7 +10,7 @@
 
         public Triangle(double side1, double side2, double side3)
         {
-            if (Side1 <= 0 || Side2 <= 0 || Side3 <= 0)
+            if (side1 <= 0 || side2 <= 0 || side3 <= 0)
                 throw new ArgumentException(Constants.NegativeOrZeroNumberErrorMessage);
 
             Side1 = side1;
