@@ -1,6 +1,6 @@
 ﻿namespace ShapesLibrary.ClassTree
 {
-    public class Square : Shape
+    public class Triangle : Shape
     {
         public readonly double Side1;
         public readonly double Side2;
@@ -8,7 +8,7 @@
 
         public readonly bool RightAngled;
 
-        public Square(double side1, double side2, double side3)
+        public Triangle(double side1, double side2, double side3)
         {
             if (Side1 <= 0 || Side2 <= 0 || Side3 <= 0)
                 throw new ArgumentException(Constants.NegativeOrZeroNumberErrorMessage);
